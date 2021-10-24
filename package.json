@@ -1,0 +1,25 @@
+{
+  "name": "f-mate",
+  "version": "0.1.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "repository": "git@github.com:RMailaender/f-mate.git",
+  "author": "Rene Mailaender <rene.mailaender@homevoice.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.0.0",
+    "@parcel/transformer-typescript-types": "^2.0.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.0",
+    "ts-jest": "^27.0.7",
+    "typescript": ">=3.0.0"
+  }
+}
