@@ -28,3 +28,13 @@ typings/
 .cache
 .parcel-cache
 
+/.idea/f-mate.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea/.gitignore
