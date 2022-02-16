@@ -38,3 +38,4 @@ typings/
 # Editor-based HTTP Client requests
 /httpRequests/
 /.idea/.gitignore
+/.idea/git_toolbox_prj.xml
