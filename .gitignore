@@ -39,3 +39,4 @@ typings/
 /httpRequests/
 /.idea/.gitignore
 /.idea/git_toolbox_prj.xml
+.DS_Store
