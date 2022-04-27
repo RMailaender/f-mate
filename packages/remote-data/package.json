@@ -1,0 +1,26 @@
+{
+  "name": "@f-mate/remote-data",
+  "version": "0.1.0",
+  "author": "Rene Mailaender <r.mailaender@posteo.de>",
+  "description": "Core types and functions of f-mate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RMailaender/f-mate.git",
+    "directory": "packages/remote-data"
+  },
+  "homepage": "https://github.com/RMailaender/f-mate.git",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">= 12"
+  }
+}

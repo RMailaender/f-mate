@@ -1,6 +1,7 @@
 {
   "name": "f-mate",
   "version": "0.1.0",
+  "private": true,
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/module.js",
@@ -22,5 +23,8 @@
     "prettier": "^2.5.1",
     "ts-jest": "^27.0.7",
     "typescript": ">=3.0.0"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
