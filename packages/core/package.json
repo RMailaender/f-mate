@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Rene Mailaender <r.mailaender@posteo.de>",
   "description": "Core types and functions of f-mate",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/RMailaender/f-mate.git",
@@ -10,16 +11,26 @@
   },
   "homepage": "https://github.com/RMailaender/f-mate.git",
   "license": "MIT",
-  "source": "src/index.ts",
+  "source": "src/Result.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build",
+    "build": "tsc -p ./tsconfig.build.json",
     "test": "jest"
   },
   "sideEffects": false,
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.0.0",
+    "@parcel/transformer-typescript-types": "^2.0.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.0.7",
+    "typescript": ">=3.0.0"
+  },
   "engines": {
     "node": ">= 12"
   }
